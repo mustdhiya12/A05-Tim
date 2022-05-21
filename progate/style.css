@@ -1,0 +1,114 @@
+.container{
+	width: auto;
+	background-color: #000000;
+	opacity: 0.8;
+	padding-bottom: 10px;
+}
+.Logo{
+	height: 70px;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+.l h1{
+	color: #88BBD6;
+	font-family: cursive;
+	border-right: 10px ridge #4CDEF5;
+	border-bottom: 10px ridge #4CDEF5;
+	border-top: 10px solid #000000;
+	border-left: 10px solid #000000;
+	margin: 10px 20px;
+	font-size: 50px;
+}
+.text{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin: 0 100px;
+	padding-top: 30px;
+}
+.jasa{
+	text-align: center;
+	color: white;
+}
+.jasa-wrap{
+	color: white;
+	background-color: #000000;
+	text-align: center;
+	border: 1px solid #000000;
+	margin: 0 300px;
+}
+.jasa-icon a{
+  padding: 10px 20px;
+  color: white;
+  display: inline-block;
+  opacity: 0.7;
+  border-radius: 4px;
+  background-color: #3DDAD7;
+}
+.jasa-icon{
+	text-align: center;
+	border: 1px solid #000000;
+	padding: 10px;
+}
+.jasa-icon a:hover{
+	opacity: 1;
+}
+@media all and (max-width: 670px){
+  .container{
+	width: auto;
+  }
+  
+  .l h1{
+	color: #88BBD6;
+	font-family: cursive;
+	border-right: 10px ridge #4CDEF5;
+	border-bottom: 10px ridge #4CDEF5;
+	border-top: 10px solid #000000;
+	border-left: 10px solid #000000;
+	margin: 0 20px;
+	font-size: 50%;
+  }
+  .text{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+.jasa-wrap{
+margin: 5px;
+}
+.jasa-icon a{
+  padding: 20px 30px;
+  color: white;
+  display: inline-block;
+  opacity: 0.7;
+  border-radius: 4px;
+  background-color: #3DDAD7;
+}
+}
+
+@media all and (max-width: 1000px){
+  .container{
+	width: auto;
+  }
+  
+  .l h1{
+	color: #88BBD6;
+	font-family: cursive;
+	border-right: 10px ridge #4CDEF5;
+	border-bottom: 10px ridge #4CDEF5;
+	border-top: 10px solid #000000;
+	border-left: 10px solid #000000;
+	margin: 0 20px;
+	font-size: 30px;
+  }
+  .text{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+.jasa-wrap{
+margin: 15px 10px;
+}
+
+}
